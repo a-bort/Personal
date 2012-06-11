@@ -1,0 +1,90 @@
+@font-face {
+    font-family: all-ages;
+    src: url('../fonts/all-ages/AllAgesDEMO.ttf');
+}
+
+html, body {
+  font-family: "Helvetica Neue", HelveticaNeue, "Helvetica-Neue", Helvetica, "BBAlpha Sans", sans-serif;
+  font-weight: normal;
+  color: #FFAA00;
+  position: relative;
+  background-color: black;
+  background-image: url('../images/black-bg-1.jpg');
+  -webkit-text-size-adjust: none;
+}
+
+.top h1 {
+    font-family: all-ages;
+    font-size: 48pt;
+    font-weight: normal;
+    margin-left: 15%;
+    white-space: nowrap;
+}
+
+.content {
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 590px !important;
+}
+
+.toolbar {
+    
+}
+
+.toolbar-item {
+    background: #F1D14F;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-border-top-left-radius: .5em;
+    -webkit-border-top-right-radius: .5em;
+    border: 2px solid;
+    border-color: #FFA300;
+}
+
+.main-panel {
+    background: #FFAA00;
+    color: black;
+    border: 2px solid;
+    border-color: #FF8800;
+    min-height: 400px;
+    -webkit-border-top-right-radius: .5em;
+    margin-top: 3px;
+}
+
+.inner-panel {
+
+}
+
+.panel-1-left {
+    display: inline-block;
+    width: 25%;
+    border-right: solid 2px;
+    border-color: #FF8800;
+    padding: 10px;
+}
+
+.pic-container {
+    /*background-image: url(../images/boss.jpg);*/
+    background-color: black;
+    width: 146px;
+    height: 159px;
+    border: solid 2px;
+    -webkit-border-top-left-radius: .5em;
+}
+
+.small-header {
+    font-weight: bold;
+}
+
+#specification-header {
+    margin-top: 10px;
+}
+
+.panel-1-right {
+    display: inline-block;
+    vertical-align: top;
+}
